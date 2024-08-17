@@ -1,9 +1,11 @@
+import headerImg from "../assets/logo.jpg";
+
 const Header = () => {
   return (
-    <header>
-      <div>
-        <img src="" alt="" />
-        <h1></h1>
+    <header id="main-header">
+      <div id="title">
+        <img src={headerImg} alt="logo" />
+        <h1>ReactFood</h1>
       </div>
       <nav>
         <button>Cart (0)</button>
